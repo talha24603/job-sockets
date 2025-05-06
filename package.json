@@ -1,0 +1,24 @@
+{
+  "name": "server2",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "@socket.io/redis-adapter": "^8.3.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "redis": "^5.0.1",
+    "socket.io": "^4.8.1",
+    "socket.io-redis": "^5.4.0"
+  },
+  "devDependencies": {
+    "@types/redis": "^4.0.10"
+  }
+}
